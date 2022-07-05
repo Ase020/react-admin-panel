@@ -1,0 +1,36 @@
+.productsList {
+    flex: 4;
+}
+
+.productList-product {
+    display: flex;
+    align-items: center;
+}
+
+.productList-img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.productList-edit {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.productList-delete {
+    color: red;
+    cursor: pointer;
+}
+
+.editDelete-btn {
+    display: flex;
+    align-items: center;
+}
